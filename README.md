@@ -35,5 +35,8 @@ pip install -r requirements.txt
 ## Usage
 Just run ```CryptoNotify.py```
 
+## Notification
+![](message.png)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
