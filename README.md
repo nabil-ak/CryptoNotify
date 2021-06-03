@@ -1,4 +1,5 @@
 <img src="icon.png" alt="icon" width="256" hight="256"/>
+
 # CryptoNotify
 
 Discord Bot who notify you every hour with the newest Crypto prices.
