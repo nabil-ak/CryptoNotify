@@ -35,6 +35,7 @@ pip install -r requirements.txt
 ## Usage
 Just run ```CryptoNotify.py```
 
+**The Bot will update the Wallet every hour. If you want to update the Wallet by your own just write something in the Notification Channel.**
 ## Notification
 ![](message.png)
 

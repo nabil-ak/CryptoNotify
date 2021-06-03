@@ -12,9 +12,9 @@ class Bot(discord.Client):
         self.currentWallet.start()
 
     async def on_message(self, message):
-        if message.author == client.user:
-            return
-        await self.currentWallet()
+        if message.author != client.user and message.channel.id == settings["channelID"]:
+            await self.currentWallet()
+        return
         
     @tasks.loop(hours=1)
     async def currentWallet(self):
