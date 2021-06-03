@@ -1,4 +1,4 @@
-![Icon](icon.png)
+<img src="icon.png" alt="icon" width="256" hight="256"/>
 # CryptoNotify
 
 Discord Bot who notify you every hour with the newest Crypto prices.
@@ -11,9 +11,9 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 pip install -r requirements.txt
 ```
 ## Settings
-1. Change the **channelID** and the **token**.
-2. Rename **settings.example.json** to **settings.json**
-3. Add Cryptocurrencies to your **Wallet** and **LastPrice** (Ignore the price. The bot sets the price itself)
+1. Change the ```channelID``` and the ```token```
+2. Rename ```settings.example.json``` to ```settings.json```.
+3. Add Cryptocurrencies to your ```Wallet``` and ```LastPrice``` (Ignore the price. The bot sets the price itself)
 
 **Be aware just use Cryptocurrencies from [Coinbase](https://www.coinbase.com/price)**
 
